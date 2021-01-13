@@ -8,3 +8,4 @@ Used plugins :
       url_launcher: ^5.7.10
       cached_network_image: ^2.5.0
       http: ^0.12.2
+      webview_flutter: ^1.0.7
