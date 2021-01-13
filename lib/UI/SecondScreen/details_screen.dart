@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:newApp/LocalData/methods/lunch.dart';
+// import 'package:newApp/LocalData/methods/lunch.dart';
 import 'package:newApp/Model/NewsUS.dart';
+import 'package:newApp/UI/ShowMoreDetails/ShowMoreDetails.dart';
 
 class DetailsScreen extends StatelessWidget {
   final String country;
@@ -111,7 +112,10 @@ class DetailsScreen extends StatelessWidget {
 
                   ],
                 ),
-                onTap: () => launchURL('${articles[number].url}'),
+                onTap: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) =>
+                        ShowMoreDetails(url: articles[number].url,),)),
+                //launchURL('${articles[number].url}'),
               )
             ]),
           ],

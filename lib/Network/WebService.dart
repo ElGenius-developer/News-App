@@ -14,7 +14,7 @@ Future<List<Articles>> loadData  (int CategoryNumber, String country ) async {
       country='eg';
     }
   String url='http://newsapi.org/v2/top-headlines?country=$country&category='
-      '${categoryName[CategoryNumber]}&apiKey=Your_API';
+      '${categoryName[CategoryNumber]}&apiKey=6fae172eac75475489122b9262aa1b9c';
   final response = await http.get(url);
 if(response.statusCode ==200||response.statusCode==201 )
   {
