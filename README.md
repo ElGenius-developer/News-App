@@ -1,7 +1,7 @@
 # newApp
 
 A new Flutter project.
-
+![](https://github.com/ElGenius-developer/News-App/blob/main/ScreenShots/1.png),![](https://github.com/ElGenius-developer/News-App/blob/main/ScreenShots/2.png)
 this is a practice on APIs , this app get news for more than country , user can choose his country 
 and category that he interests in , he also can display the details .
 Used plugins : 
